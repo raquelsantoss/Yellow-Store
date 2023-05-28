@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Your Cart</title>
+</head>
+
+<body>
+  <!-----------NAVIGATION------------->
+  <nav class="nav">
+    <div class="navigation container">
+      <div class="logo">
+        <h1>Yellow Store</h1>
+      </div>
+
+      <div class="menu">
+        <div class="top-nav">
+          <div class="logo">
+            <h1>Yellow Store</h1>
+          </div>
+          <div class="close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Conta</a>
+          </li>
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <a href="cart.html" class="cart-icon">
+        <i class="bx bx-shopping-bag"></i>
+      </a>
+
+      <div class="hamburger">
+        <i class="bx bx-menu"></i>
+      </div>
+    </div>
+  </nav>
+
+  <form class="contact-form" action="">
+    <div class="title">
+      <h2>CONTATO</h2>
+    </div>
+    <div class="half">
+      <div class="item">
+        <label for="name">NOME</label>
+        <input type="text" id = "name">
+      </div>
+      <div class="item">
+        <label for="email">EMAIL</label>
+        <input type="text" id = "email">
+      </div>
+    </div>
+    <div class="full">
+      <label for="message">MENSAGEM</label>
+      <textarea name="" id = "message"></textarea>
+    </div>
+    <div class="action">
+      <input type="submit" value = "ENVIAR MENSAGEM">
+      <input type="reset" value = "APAGAR">
+    </div>
+    <div class="icons">
+      <a href="" class = "fa fa-twitter"></a>
+      <a href="" class = "fa fa-facebook"></a>
+      <a href="" class = "fa fa-instagram"></a>
+      <a href="" class = "fa fa-github"></a>
+    </div>
+  </form>
+
+
+
+  <!--------FOOTER----------->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Marcas</a>
+          <a href="#">Presentes</a>
+          <a href="#">Afiliações</a>
+          <a href="#">Especial</a>
+
+        </div>
+        <div class="footer-center">
+          <h3>INFORMAÇÕES</h3>
+          <a href="#">Sobre Nós</a>
+          <a href="#">Política Privacidade</a>
+          <a href="#">Termos e Condições</a>
+          <a href="contact.html">Contato</a>
+
+        </div>
+        <div class="footer-center">
+          <h3>CONTA</h3>
+          <a href="#">Minha Conta</a>
+          <a href="#">Histórico de Pedidos</a>
+          <a href="#">Lista de Desejos</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Retornos</a>
+        </div>
+        <div class="footer-center">
+          <h3>Nossos Contatos</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            Rio de Janeiro, Copacabana
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            yellowstore@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            21 3372-9267
+          </div>
+          <div>
+            <span>
+              <i class="far fa-paper-plane"></i>
+            </span>
+            Brasil, RJ
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <!---------SCRIPT-------->
+  <script src="script2.js"></script>
+</body>
+
+</html>
